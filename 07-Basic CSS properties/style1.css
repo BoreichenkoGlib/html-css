@@ -1,0 +1,25 @@
+.bg-with-css3{
+    width: 1280px; height: 946px; background-image: url(Task1/4.png), url(Task1/3.png), url(Task1/2.png), url(Task1/1.png), url(Task1/5.png), url(Task1/6.png), url(Task1/0.png); margin: 20px;
+    background-repeat: no-repeat; background-position: 910px 570px, 775px 365px, 990px 350px, 0px 556px, 280px 295px, 240px 170px, 0px 0px;
+}
+.background{
+    background: url(Task1/0.png) no-repeat; width: 1280px; margin: 20px;
+}
+.chip-hangs{
+    background: url(Task1/6.png) no-repeat 240px 170px;
+}
+.gadget{
+    background: url(Task1/5.png) no-repeat 280px 295px;
+}
+.chip{
+    background: url(Task1/3.png) no-repeat 775px 365px;
+}
+.dale{
+    background: url(Task1/2.png) no-repeat 990px 350px;
+}
+.zipper{
+    background: url(Task1/4.png) no-repeat 910px 570px;
+}
+.chees-eater{
+    height: 946px; background: url(Task1/1.png) no-repeat 0px 556px;
+}

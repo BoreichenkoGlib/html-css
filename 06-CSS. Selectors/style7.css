@@ -1,0 +1,21 @@
+legend {
+    color: #87582e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    background: #FFDAB9 url(https://pngimage.net/wp-content/uploads/2018/06/%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F-%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-png-5.png) no-repeat 30px;
+    background-size:150px;
+}
+
+input {
+    margin-left: 150px;
+}
+.sub {
+    border: 1px solid #f9f7fc;
+    background: #d4ae5c;
+    margin: 15px 20px 15px 20px;
+    color: white;
+
+}

@@ -1,0 +1,199 @@
+@keyframes anim1 {
+  from {
+    margin-left: 10px;
+  }
+
+  to {
+    margin-left: 95%;
+  }
+}
+
+@keyframes anim2 {
+  50% {
+    background-color: red;
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  25% {
+    margin-left: 50%;
+    margin-top: 0%;
+  }
+
+  50% {
+    margin-left: 50%;
+    margin-top: 20%;
+  }
+
+  75% {
+    margin-left: 0%;
+    margin-top: 20%;
+  }
+
+  100% {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+
+@keyframes anim4 {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 50%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes anim5 {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 50%;
+  }
+}
+
+@keyframes anim6 {
+  0% {
+    width: 10%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes anim7 {
+  35%, 75%, 90% {
+    animation-timing-function: ease-out;
+    bottom: 0;
+  }
+
+  0% {
+    bottom: 200px;
+    left: 0;
+    animation-timing-function: ease-in;
+  }
+
+  55% {
+    bottom: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    bottom: 25px;
+    animation-timing-function: ease-in;
+  }
+
+  95% {
+    bottom: 10px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    left: 110px;
+    bottom: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  margin: 5px;
+}
+
+.d1 {
+  animation: anim1 4s 3;
+}
+
+.d2 {
+  animation: anim1 4s infinite;
+}
+
+.d3 {
+  height: 100px;
+  width: 100px;
+  animation: anim2 4s infinite;
+}
+
+.d4, .d5 {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+}
+
+.d4 div {
+  animation: anim3 10s infinite;
+}
+
+.d5 div {
+  animation: anim2 1s infinite,
+    anim3 10s infinite;
+}
+
+.d6 {
+  animation: anim4 6s infinite;
+}
+
+.d7 {
+  animation: anim5 6s alternate infinite;
+}
+
+.d8, .d9, .d10, .d11, .d11 div:first-child, .d12 {
+  width: 100%;
+  background-color: white;
+}
+
+.d8 div {
+  animation: anim6 5s linear forwards;
+}
+
+.d9 div {
+  animation: anim6 5s linear infinite -5s;
+}
+
+.d10 div {
+  animation: anim6 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.d10 div:hover {
+  animation-play-state: running;
+}
+
+.d11 div+div {
+  animation: anim6 2s ease alternate infinite;
+  animation-play-state: paused;
+}
+
+.d11 div:hover+div {
+  animation-play-state: running;
+}
+
+.d12 {
+  margin-top: 300px;
+}
+
+.d12 div {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: relative;
+  animation: anim7 4s infinite;
+}

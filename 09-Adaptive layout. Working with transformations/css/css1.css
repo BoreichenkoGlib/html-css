@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	padding: 5px;
+	width: 800px;
+	background-color: #0FC0FC;
+	margin: 10px auto auto;
+	display: grid;
+	grid-gap: 5px;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 450px 200px 200px;
+    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m m m m m m m m m r r r"
+        "a a a a b b b b c c c c c"
+        "f f f f f f f f f f f f f";
+}
+
+@media screen and (max-width: 768px) {
+	.grid {
+	    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m m m m m m m m m m m m"
+        "r r r r r r r r r r r r r"
+        "r r r r r r r r r r r r r"
+        "r r r r r r r r r r r r r"
+        "a a a a a a a a a a a a a"
+        "b b b b b b b b b b b b b"
+        "c c c c c c c c c c c c c"
+        "f f f f f f f f f f f f f";
+	}
+	.right p{
+		transform: rotate(90deg);
+    transform-origin: left top 0;
+		height: 200px;
+	}
+}
+
+.fixed {
+	margin-left: 10px;
+	text-align: center;
+	padding-top:10px;
+	position: fixed;
+	background-color: #181853;
+	border-radius: 20px;
+	color: white;
+	width: 150px;
+	height: 30px;
+	transition: .2s linear;
+}
+
+.fixed:hover {
+	transform: scale(1.3);
+}
+
+.header p:before{
+	content:"the_";
+}
+.header p:after{
+	content:"_site";
+}
+
+.header {
+	grid-area: h;
+	padding-top:30px;
+	font-family: 'Prosto One', serif;
+         border: 2px solid white;
+    	 background: #1A0290;
+    	 border-radius: 20px;
+         text-align: center;
+         font-size: 2.5em;
+         color: white;
+ 		 text-shadow: 0 0 1px #eee, 5px 5px 1px #00dcdc, -5px -2px 1px #ff3232;
+}
+
+
+.main {
+	grid-area: m;
+		background: white;
+		box-shadow: 5px 0 4px 2px white;
+         display: flex;
+	flex-flow: row wrap;
+	border: 1px solid white;
+	 border-radius: 20px;
+}
+
+.main > div {
+		 width: 50%;
+         height: 50%;
+         border-radius: 20px;
+           transition: .2s linear;
+}
+
+.main >div:hover {
+  transform: scale(1.3);
+
+}
+
+.main > div:nth-child(1) {
+		background-image: url(images/t1.jpg);
+		 background-size: contain;
+		}
+
+.main > div:nth-child(2) {
+		background-image: url(images/t2.jpg);
+		 background-size: contain;
+		}
+.main > div:nth-child(3) {
+		background-image: url(images/t3.jpg);
+		 background-size: contain;
+		}
+.main > div:nth-child(4) {
+		background-image: url(images/t4.jpg);
+		 background-size: contain;
+		}
+
+.right {
+	grid-area: r;
+	background-color: white;
+	color: orange;
+	 border-radius: 20px;
+	  box-shadow: inset 25px 25px 20px orange;
+
+}
+
+.right p {
+	transform: rotate(90deg);
+    transform-origin: left top 0;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.a {
+	grid-area: a;
+}
+
+.b {
+	grid-area: b;
+}
+
+.c {
+	grid-area: c;
+}
+
+.footer {
+	grid-area: f;
+	font-family: 'Prosto One', serif;
+         border: 2px solid white;
+    	 background: #1A0290;
+    	 border-radius: 20px;
+         text-align: center;
+         color: white;
+}
+
+.footer p {
+	font-size: 0.7em;
+	margin-bottom: 1px;
+}
+
+.made {
+	margin-top: 30px;
+}
+
+.footer ul {
+	margin-top:-20px;
+	margin-left:-20px;
+}
+.footer a 
+{
+  color: white;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .3s linear;
+}
+.footer a:hover 
+{
+	color: red;
+}
+
+.footer li {
+margin-right: 10px;
+  display: inline;
+}
+
+
+
+
+.right p {
+	transform: rotate(90deg);
+    transform-origin: left top 0;
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.a,
+.b,
+.c
+	 {
+	background-color: white;
+	border-radius: 20px;
+	overflow: scroll;
+	font-weight: bold;
+	padding: 5px;
+}

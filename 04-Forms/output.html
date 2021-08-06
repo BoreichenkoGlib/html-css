@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>output</title>
+</head>
+<body>
+<form oninput="pound.value = (kg.value / 0.45).toFixed(2); kvintal.value = (kg.value / 100).toFixed(2); Salary.value = (+(NumOfHours.value * rate.value)) + (+(NumOfHours.value * rate.value) * tax.value);sum.value = (+addition1.value) + (+addition2.value)">
+    <p>
+        Write your weight in kg:
+        <input type="number" name="kg" autofocus>
+    </p>
+    <p>Weight in pound: <output name="pound"></output></p>
+    <p>Weight in kvintal: <output name="kvintal"></output></p>
+    <h2>Write 2 numbers and take the sum</h2>
+    <h3>
+        <input type="number" name="addition1" autofocus>+<input type="number" name="addition2" autofocus>= <output name="sum"></output>
+
+    </h3>
+    <h2>How much do you want to earn?</h2>
+    <fieldset style="">
+        <button type="reset">Очистить форму</button>
+        <input type="range" min="1" max="100" step="1"
+               oninput="document.getElementById('rangeValLabel').innerHTML = this.value;"
+               name="rangeVal" id="rangeVal" value="58">
+
+        <label for="rangeVal">value:</label><em id="rangeValLabel" style="font-style: normal;"></em>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Calculate the salary
+        </legend>
+        <p>Number of hours<input type="number" name="NumOfHours" autofocus></p>
+        <p>Rate<input type="number" name="rate" autofocus></p>
+        <p>Tax<input type="number" name="tax" autofocus></p>
+        <output name="Salary"></output>
+        <p>
+            <button type="reset">Lets go</button>
+            <button type="reset">Очистить форму</button>
+    </fieldset>
+</form>
+
+</body>
+</html>

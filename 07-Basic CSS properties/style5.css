@@ -1,0 +1,32 @@
+h1{
+    background: url(3.png) no-repeat left center; padding-left: 50px; font-size: 1.9em; color: #555;
+}
+.graduate1{
+    position: relative; height: 250px;
+}
+.graduate2{
+    width: 100%; position: relative;
+}
+.photo{
+    width: 150px; height: 150px; border-radius: 75px; position: absolute; left: 20px; top: 10px;
+}
+.position{
+    width: 200px; position: absolute; font-size: 0.9em; color: #888; left: 10px; top: 230px; text-align: center; font-style: italic;
+}
+.quote{
+    quotes: "\201C" "\201E"; font-style: italic; position: absolute; left: 230px; top: 10px;
+    color: #666; width: 380px; text-align: left; line-height: 1.2em;
+}
+.quote::before{
+    content: open-quote;
+    color: #bbb; padding-right: 15px;
+    font-size: 2.5em;
+}
+.author::after{
+    content: close-quote;
+    color: #bbb; padding-left: 15px;
+    font-size: 2.5em;
+}
+.author{
+    font-style: normal; position: absolute; right: 10px; bottom: -20px;
+}

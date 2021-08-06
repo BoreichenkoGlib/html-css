@@ -1,0 +1,30 @@
+#table tr {
+    width: auto;
+    height: auto;
+}
+#menu {
+    width: 200px;
+}
+#menu ul,li {
+    list-style-type: none;
+    padding: 5px;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu a+ul a {
+    color: black;
+    display: block;
+    background-color: darkorange;
+    padding:5px;
+    margin:-5px;
+}
+#menu ul>li {
+    background-color: green;
+    margin-bottom: 2px;
+}
+#menu a+ul{
+    background-color: darkorange;
+}

@@ -1,0 +1,36 @@
+.shared{
+    width: 100px; height: 100px; display: inline-block; background-repeat: no-repeat; margin-left: -4px;
+}
+.sprites{
+    height: 1000px; float: left;
+}
+.google{
+    background: #D30000 url(Task2/1.png);
+}
+.twitter{
+    background: #3F95EE url(Task2/2.png);
+}
+.mail{
+    background: #F2BE24 url(Task2/3.png);
+}
+.facebook{
+    background: #4267B2 url(Task2/4.png);
+}
+.sound{
+    background: #FF9100 url(Task2/5.png);
+}
+.vk{
+    background: #353EEE url(Task2/6.png);
+}
+.email{
+    background: #EDDC16 url(Task2/7.png);
+}
+.yandex{
+    background: #D30000 url(Task2/8.png);
+}
+.pen{
+    background: #3F95EE url(Task2/9.png);
+}
+.ok{
+    background: #f97400 url(Task2/10.png);
+}

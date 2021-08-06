@@ -1,0 +1,16 @@
+li {
+    list-style-type: decimal;
+}
+ol li ul{
+    color:pink;
+}
+ol { color: green;}
+ul li {
+    list-style-type: none;
+}
+ol li:last-child li {
+    list-style-type: square;
+}
+ol li:last-child li a {
+    text-decoration: none
+}

@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 20px;
+}
+
+body>ul:first-child>li:first-child {
+  counter-reset: point;
+}
+
+ul li>ul:first-child>li:first-child {
+  counter-reset: subpoint;
+}
+
+body>ul:first-child>li::before {
+  counter-increment: point;
+  content: ' ' counter(point) '. ';
+}
+
+body>ul:first-child>li>ul>li::before {
+  counter-increment: subpoint;
+  content: counter(point) '.' counter(subpoint) '. ';
+}
+ul:first-child li:before {
+  border: 3px solid gold;
+  padding: 2px;
+  background-color: green;
+  color: white;
+}
+
+ul:first-child .active::before {
+  color: black;
+  background-color: gold;
+  border: 3px solid green;
+}
+
+body>ul:last-child {
+  counter-reset: list;
+}
+
+body>ul:nth-child(2) li:before {
+  color: white;
+  font-size: 20pt;
+  counter-increment: list;
+  padding: 10px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+  background-color: aqua;
+  content: counter(list) ' ';
+}
+
+body>ul:nth-child(2)>li:nth-child(4) ~li {
+  margin-left: 300px;
+}
+
+body>ul:nth-child(2)>li:nth-child(5){
+    margin-top: -185px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Ресторан</title>
+    <style>
+        form{
+            width: 600px;
+            margin: 0 auto;}
+    </style>
+</head>
+<body>
+<form action="" method="get"> <!--action-адреса на яку відпр дані форми, method-метод отправки даних на сервер, get-через строку браузера-->
+    <fieldset><p><progress max="100"></progress></p>
+        <meter value="10"></meter>
+        <legend>Введіть персональні дані</legend>
+        <p><label>Ваше ім'я</label>
+            <input type="text" pattern="\D [^0-9]"></p> <!--patern форма буде відправлятись якщо буде правильно заповнена форма-->
+        <p><label>Електронна адреса</label>
+            <input type="email" id="email" autocomplete="off" required placeholder="adsf@gmail.com"> <!--автозаповнення вимкнене-->
+        <p><label>Телефон в форматі 2xxx-xxx:</label>
+            <input type="tel" name="tel"
+                   pattern="2[0-9]{3}-[0-9]{3}" placeholder="2004-222:">
+        <p><label>Ваш персональний сайт</label>
+            <input type="url" required id="url" placeholder="https://example.com"
+                   pattern="https://.*">
+        </p>
+        <p><label>Дата народження</label>
+            <input type="date"></p>
+        <p><label>Почтовий індекс</label>
+            <input type="text" pattern="[0-9]{6}"></p>
+        <p><label>Ваше місто</label>
+            <input list="city">
+            <datalist id="city">
+                <option>Житомир</option>
+                <option>Київ</option>
+                <option>Одесса</option>
+                <option>Вінниця</option>
+            </datalist>
+        <p><label>Улюблений колір</label>
+            <input type="color"></p>
+    </fieldset>
+    <p></p>
+    <fieldset><legend>Відгук</legend>
+        <p><label>Оцінка нашого ресторана</label>
+            <input type="range" name="mark" min="1" max="10" step="1"></p>
+        <p>
+            <label>Приблизна дата останього відвідування</label>
+            <input type="month">
+            <input type="week"></p>
+
+        <p><label>Відгук</label>
+            <textarea spellcheck="false"></textarea> <!--spellcheck перевірка орфографії-->
+        </p>
+        <p><input type="submit" name="send" >
+        </p>
+    </fieldset>
+</form>
+</body>
+</html>

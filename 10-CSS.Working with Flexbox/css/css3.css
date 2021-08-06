@@ -1,0 +1,46 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	padding: 0;
+	margin:0;
+}
+ul {
+	padding: 0;
+	border: 1px solid #0013CB;
+	width: 100%;
+	text-align: center;
+  list-style: none; 
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  background: #008ECB;
+  	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+
+
+ul a {
+	display: inline-block;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	 text-decoration: none;
+  font-family: 'Lora', serif;
+  color: white;
+}
+
+ul a:hover {
+	background-color: white;
+	color: #008ECB;
+}
+
+@media (max-width: 1200px) {
+	 a {
+		width: 200px;
+	}
+	ul li{
+	flex-grow: 1;
+	}
+}

@@ -1,0 +1,21 @@
+body {
+    background: white url(https://st.depositphotos.com/2679339/3127/i/950/depositphotos_31274503-stock-photo-birds-in-the-sky.jpg) no-repeat 1% 3%;
+    position: absolute;
+    background-size: 412px 600px;
+}
+img{
+    width:300px;
+    padding: 20px;
+}
+em{
+    color:white;
+}
+p{
+    color:blue;
+}
+h1{
+    color:red;
+}
+ol{
+    color:yellow;
+}

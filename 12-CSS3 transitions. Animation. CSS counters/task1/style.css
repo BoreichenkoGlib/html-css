@@ -1,0 +1,177 @@
+body>div {
+  display: flex;
+  height: 100px;
+  width: 250px;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+
+.d1 {
+  transition: background-color 1s;
+}
+
+.d1:hover {
+  background-color: red;
+}
+
+.d2 {
+  transition: background-color 1s,
+    color 1s;
+}
+
+.d2:hover {
+  background-color: red;
+  color: white;
+}
+
+.d3 {
+  transition: width 1s;
+}
+
+.d3:hover {
+  width: 100%;
+}
+
+.d4 {
+  transition: width 1s,
+    font-size 1s;
+}
+
+.d4:hover {
+  width: 100%;
+  font-size: 20pt;
+}
+
+.d5 {
+  position: relative;
+  left: 0;
+  transition: left 1s,
+    width 1s;
+}
+
+.d5:hover {
+  left: 20%;
+  width: 60%;
+}
+
+.d6 {
+  text-indent: 2000px;
+  transition: text-indent 1s;
+}
+
+.d6:hover {
+  text-indent: 0px;
+}
+
+.d7 {
+  transition: width 1s;
+  transition-delay: 3s;
+}
+
+.d7:hover {
+  width: 100%;
+}
+
+.d8 input {
+  width: 100px;
+  box-shadow: 0px 0px 0px 0px;
+  transition: width 1s,
+    box-shadow 1s;
+}
+
+.d8 input:focus {
+  width: 90%;
+  box-shadow: 0px 0px 3px 3px grey;
+}
+
+.d8 ~ div  {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div div {
+  margin: 10px 10%;
+  border: 1px solid green;
+  width: 10%;
+  height: 50px;
+  transition: width 1s;
+}
+
+.d9:hover div,
+.d10 div:hover+div,
+.d11 div:hover~div,
+.d12 div:hover+div+div,
+.d14:hover div,
+.d15:hover div {
+  width: 80%;
+}
+
+.d13 {
+  overflow: hidden;
+}
+
+.d13 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.d13 div:last-child {
+  position: relative;
+  left: -100%;
+  transition: left 2s;
+}
+
+.d13 div:first-child:hover+div {
+  left: 0;
+}
+
+.d14 div:first-child {
+  transition: width 5s steps(10, start);
+}
+
+.d14 div:last-child {
+  transition: width 5s steps(10, end);
+}
+
+.d15 div {
+  transition: width 3s cubic-bezier( .2, -0.5, .0, 1.0);
+}
+
+.d16 div, .d17 div {
+  width: 0%;
+  background-color: green;
+  margin: 0;
+  transition: width 10s linear;
+}
+
+.d16:hover div {
+  width: 100%;
+}
+
+.d17 div {
+  transition: width 10s steps(10, start);
+}
+
+.d17:hover div {
+  width: 100%;
+}
+
+.d18 {
+  padding: 100px;
+}
+
+.d18 div {
+  box-shadow: -100px 100px black,
+              100px -100px darkgrey;
+  transition: box-shadow 2s linear;
+}
+
+.d18 div:hover {
+  box-shadow: 100px 100px black,
+              100px 100px darkgrey;
+}

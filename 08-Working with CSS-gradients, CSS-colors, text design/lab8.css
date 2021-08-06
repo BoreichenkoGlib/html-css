@@ -1,0 +1,174 @@
+body{
+    font-family: "Arial", sans-serif;
+}
+.gradBack{
+position: absolute;
+    height: 888px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.36),rgba(0,0,0,0.16));
+}
+
+.leftUp{
+    position: absolute;
+    margin: 28px;
+}
+.rightUp{
+    position: absolute;
+    right: 14px;
+    margin: 28px;
+}
+.blockBlack{
+   height: 310px;
+    width: 280px;
+
+    position: relative;
+    left: 40%;
+    top: 29%;
+    background-color: black;
+    z-index: 2;
+    box-shadow: 13px 17px 11px rgba(0,0,0,0.25);
+
+}
+.blockWhite
+{
+    height: 183px;
+    width: 280px;
+    left: 47%;
+    top: 20%;
+    position: relative;
+    background-color: rgba(255,255,255,0.22);
+    z-index: 1;
+    box-shadow: 8px 7px rgba(0,0,0,0.25);
+}
+.city{
+    position: absolute;
+    color: white;
+    margin: 10px;
+}
+.time{
+    color: black;
+    position: absolute;
+    margin: -72px;
+    padding: 16px;
+    font-size: 20pt;
+}
+.pm{
+    vertical-align: sub;
+    font-size: 11pt;
+}
+.rightCornerX{
+    color: white;
+    text-align: end;
+    margin: 10px;
+    font-size: 23pt;
+}
+.XinWhite{
+color:black;
+}
+.arrow {
+    background-color: rgba(0,0,0,0.27);
+    color: white;
+    font-size: 67pt;
+    font-family: monospace;
+    position: absolute;
+    margin-left: -62px;
+    margin-top: 39px;
+    padding-bottom: 12px;
+    padding-left: 9px;
+    letter-spacing: 7px;
+}
+.temperature{
+     color: gray;
+    font-size: 4.5em;
+    bottom: 0;
+    padding: 7px;
+    position: absolute;
+}
+.date{
+       color: gray;
+    margin-right: 13px;
+    text-align: end;
+    bottom: 10px;
+    right: 0px;
+    position: absolute;
+
+}
+.cloud{
+    width: 332px;
+    position: absolute;
+    margin-left: 58px;
+}
+.weatherCell
+{
+      width: 52px;
+    height: 90px;
+    position: relative;
+    display: inline-block;
+    margin-top: 12%;
+    text-align: center;
+    font-size: 11pt;
+    color: gray;
+    line-height: 29px;
+}
+.deg{
+    color:black;
+    font-size: 17pt;
+}
+.radialGrad{
+        position: absolute;
+    bottom: -104px;
+    left: -7px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+background: rgba(125, 125, 125, 1.0);
+background: -webkit-radial-gradient(top left, rgba(125, 125, 125, 1.0), rgba(0, 0, 0, 1.0));
+background: -moz-radial-gradient(top left, rgba(125, 125, 125, 1.0), rgba(0, 0, 0, 1.0));
+background: radial-gradient(to bottom right, rgba(125, 125, 125, 1.0), rgba(0, 0, 0, 1.0));
+}
+.webInfo{
+    text-shadow: 6px -3px #66d3fa;
+    font-size: 111pt;
+    line-height: 141px;
+    font-family: sans-serif;
+    color: #66d3fa;
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    right: 45%;
+    top: 40%;
+    width: 836px;
+    -webkit-text-stroke-color: black;
+}
+.webInfoText{
+
+}
+.square{
+width: 400px;
+    height: 400px;
+    display: block;
+    position: inherit;
+    right: 0px;
+    top: 0px;
+}
+.part1{
+    width: 200px;
+    height: 200px;
+    background-color: #66d3fa;
+    position: absolute;
+}
+.part2{
+    background-color: white;
+    border-top-right-radius: 75%;
+    border-top-left-radius: 0%;
+    display: inline;
+    right: 0%;
+}
+.part3{
+    bottom: 0px;
+    background-color: white;
+    border-bottom-left-radius: 75%;
+}
+.part4{
+      bottom: 0%;
+    right: 0%;
+}

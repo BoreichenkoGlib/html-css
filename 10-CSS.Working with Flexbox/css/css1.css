@@ -1,0 +1,113 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	padding: 0;
+	margin:0;
+	background: linear-gradient(#A27CEC, white);
+}
+ul {
+	padding: 0;
+	border: 1px solid #0013CB;
+	width: 980px;
+	text-align: center;
+  list-style: none; 
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  background: #008ECB;
+}
+
+ul li {
+	padding: 10px;
+}
+
+ul a:hover {
+	
+	color: #008ECB;
+}
+ul li:hover {
+	background-color: white;
+	color: #008ECB !important;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  color: white;
+  padding: 10px;
+}
+
+.one ul{
+	justify-content: space-between;
+}
+
+.two ul{
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.three ul{
+	justify-content: center;
+}
+
+.four ul{
+	justify-content: center;
+	height: 100px;
+}
+
+.four ul li{
+	border: 1px solid #0013CB;
+	width: 100px;
+}
+
+.five ul{
+	justify-content: center;
+	height: 100px;
+	align-items: center;
+}
+
+.five ul li{
+	border: 1px solid #0013CB;
+	width: 100px;
+}
+
+.six ul{
+	justify-content: flex-end;
+	height: 100px;
+	align-items: center;
+}
+
+.six ul li{
+	border: 1px solid #0013CB;
+	width: 100px;
+}
+
+.seven ul{
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+	height: 100px;
+	align-items: center;
+}
+
+.seven ul li{
+	border: 1px solid #0013CB;
+	width: 100px;
+}
+
+.eight ul{
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.nine ul{
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.nine ul li{
+	text-align: left;
+	border: 1px solid #0013CB;
+	width: 400px;
+}
