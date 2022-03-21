@@ -10,7 +10,7 @@
 
 @keyframes anim2 {
   50% {
-    background-color: red;
+    background-color: rgb(0, 60, 255);
   }
 }
 
@@ -112,7 +112,7 @@
 div {
   height: 50px;
   width: 50px;
-  background-color: grey;
+  background-color: rgb(219, 13, 13);
   margin: 5px;
 }
 
