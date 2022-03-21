@@ -1,5 +1,4 @@
 # html-css
----
 ## Basics of html and css
 ---
 1. [Text formatting](./01-text%20formatting/)
