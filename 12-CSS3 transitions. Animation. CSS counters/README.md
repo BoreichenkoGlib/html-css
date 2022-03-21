@@ -1,3 +1,3 @@
-#CSS transitions + Animations
+# CSS transitions + Animations
 ---
 ![](Screenshot_1.png)
