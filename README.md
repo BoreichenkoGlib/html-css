@@ -1,6 +1,6 @@
-#html-css
+# html-css
 ---
-##Basics of html and css
+## Basics of html and css
 ---
 1.[Text formatting](./01-text%20formatting/)
 2.[Lists and tables](./02-lists%20and%20tables/)
