@@ -7,5 +7,5 @@
 
 ## Task 2
 <p align="center">
-<img src="task2.png" width="40%" height="40%">
+<img src="task2.png" width="35%" height="35%">
 </p>
