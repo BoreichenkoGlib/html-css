@@ -1,14 +1,31 @@
 # Playing with CSS
 ---
 ## Task 1
-![](maket.png)
+<p align="center">
+<img src="maket.png" width="50%"><br>
+</p>
+
 ## Task 2
-![](task1.png)
+<p align="center">
+<img src="task1.png" width="30%"><br>
+</p>
+
 ## Task 3
-![](task2.png)
+<p align="center">
+<img src="task2.png" width="80%"><br>
+</p>
+
 ## Task 4
-![](task3.png)
+<p align="center">
+<img src="task3.png" width="30%"><br>
+</p>
+
 ## Task 5
-![](task5.png)
+<p align="center">
+<img src="task5.png" width="30%"><br>
+</p>
+
 ## Task 6
-![](task7.png)
+<p align="center">
+<img src="task7.png" width="50%"><br>
+</p>

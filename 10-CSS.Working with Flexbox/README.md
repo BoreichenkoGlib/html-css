@@ -1,12 +1,26 @@
 # CSS.Working with Flexbox
 ---
 ## Task 1
-![](task1.png)
+<p align="center">
+<img src="task1.png" width="80%"><br>
+</p>
+
 ## Task 2
-![](task2.png)
+<p align="center">
+<img src="task2.png" width="50%"><br>
+</p>
+
 ## Task 3
-![](task3.png)
+<p align="center">
+<img src="task3.png" width="50%"><br>
+</p>
+
 ## Task 4
-![](task4.png)
+<p align="center">
+<img src="task4.png" width="90%"><br>
+</p>
+
 ## Task 5
-![](task5.png)
+<p align="center">
+<img src="task5.png" width="90%"><br>
+</p>

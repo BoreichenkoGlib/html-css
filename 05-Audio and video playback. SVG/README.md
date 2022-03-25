@@ -1,9 +1,17 @@
 # Working with audio and video + SVG
 ---
 ## Created small form
-![](index.png)
+<p align="center">
+<img src="index.png" width="50%"><br>
+</p>
+
 ## Made audioplayer
-![](audio.png)
+<p align="center">
+<img src="audio.png" width="50%"><br>
+</p>
+
 ## SVG
-![](svg(1).png)
-![](svg(2).png)
+<p align="center">
+<img src="svg(1).png" width="40%"><br>
+<img src="svg(2).png" width="40%"><br>
+</p>
