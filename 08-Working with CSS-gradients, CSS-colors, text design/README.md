@@ -1,3 +1,3 @@
-#Creating web application for weather forecasting
+# Creating web application for weather forecasting
 ---
 ![](task_2.png)

@@ -1,14 +1,14 @@
-#Playing with CSS
+# Playing with CSS
 ---
-##Task 1
+## Task 1
 ![](maket.png)
-##Task 2
+## Task 2
 ![](task1.png)
-##Task 3
+## Task 3
 ![](task2.png)
-##Task 4
+## Task 4
 ![](task3.png)
-##Task 5
+## Task 5
 ![](task5.png)
-##Task 6
+## Task 6
 ![](task7.png)
